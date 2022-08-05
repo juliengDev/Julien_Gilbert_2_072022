@@ -252,7 +252,6 @@ ul li .color_blue {color: #0065FC}
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);  
-  transition-property: filter width;
   transition-duration: .3s;
   transition-timing-function: ease;
 }
@@ -314,7 +313,6 @@ ul li .color_blue {color: #0065FC}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-    transition-property: filter width;
     transition-duration: .3s;
     transition-timing-function: ease;
   }
@@ -325,7 +323,6 @@ ul li .color_blue {color: #0065FC}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-    transition-property: filter width;
     transition-duration: .3s;
     transition-timing-function: ease;
   }
@@ -378,7 +375,6 @@ ul li .color_blue {color: #0065FC}
     left: 50%;
     border-radius: 25px;
     transform: translate(-50%, -50%);    
-    transition-property: filter width; 
     transition-duration: .3s;
     transition-timing-function: ease;
   }
@@ -410,7 +406,6 @@ ul li .color_blue {color: #0065FC}
     left: 50%;
     border-radius: 25px;
     transform: translate(-50%, -50%);    
-    transition-property: filter width; 
     transition-duration: .3s;
     transition-timing-function: ease;
   }
@@ -443,7 +438,6 @@ ul li .color_blue {color: #0065FC}
     left: 50%;
     border-radius: 25px;
     transform: translate(-50%, -50%);    
-    transition-property: filter width; 
     transition-duration: .3s;
     transition-timing-function: ease;
   }
@@ -476,7 +470,6 @@ ul li .color_blue {color: #0065FC}
     left: 50%;
     border-radius: 25px;
     transform: translate(-50%, -50%);    
-    transition-property: filter width; 
     transition-duration: .3s;
     transition-timing-function: ease;
   }
@@ -509,7 +502,6 @@ ul li .color_blue {color: #0065FC}
   left: 50%;
   border-radius: 25px;
   transform: translate(-50%, -50%);    
-  transition-property: filter width; 
   transition-duration: .3s;
   transition-timing-function: ease;
   }
