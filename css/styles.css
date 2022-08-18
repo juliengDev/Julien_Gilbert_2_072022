@@ -23,9 +23,12 @@ body {
 .fw_extra_bold {font-weight: 800;}
 .fw_black {font-weight: 900;}
 
+/* Colors Class */
 .color_blue {color: #0065FC}
 .color_light_blue {color: #DEEBFF;}
 .color_light_grey {color: #F2F2F2}
+
+/* Font size Class */
 .h2_size {font-size: 25px;}
 
 /*              ===================================================================                */
@@ -39,8 +42,7 @@ body {
   display: flex;
   justify-content: space-between; 
   width:465px;
-  font-size: 20px;
-  
+  font-size: 20px;  
 }
 .header_nav ul li:first-child a {margin-bottom: 20px;}
 .header_nav ul li:first-child {
@@ -48,8 +50,7 @@ body {
   padding: 80px 20px 0; 
   list-style: none;  
   border-top: solid 4px white;
-  text-align:center;
-  
+  text-align:center;  
 }
 .header_nav ul li:last-child {
   width:50%; list-style: none; 
@@ -59,7 +60,6 @@ body {
 }
 
 .header_nav ul li:first-child:hover {border-top: 4px solid #0065FC;}
-
 
 ul li a:link {text-decoration: none;}
 ul li a:visited {text-decoration: none;}
@@ -73,11 +73,9 @@ ul li .color_blue {color: #0065FC}
 
 /* Title Section */
 
-
 .s_title {height: 125px;}  
 .s_title {margin: 0 0 0 70px;}
 .s_title_p {font-size: 20px;}
-
 
 /* Search Section  */
 
@@ -161,11 +159,8 @@ ul li .color_blue {color: #0065FC}
   height: 65px;
   border-radius: 50px;
   background-color: #deebff;
-  color: #0065FC;
-  
+  color: #0065FC;  
 }
-
-
 .s_filter_container .s_filter_btn {
   display: flex;
   align-items: center;  
@@ -184,7 +179,6 @@ ul li .color_blue {color: #0065FC}
   background-color: #deebff;
   color: #0065FC;  
 }
-
 .s_filter_info {display: flex; align-items: center;margin: 50px 0 0 80px;}
 .s_filter_info i {
   display: flex;
@@ -203,9 +197,8 @@ ul li .color_blue {color: #0065FC}
   display: flex; 
   width: 1790px;
   height: 850px; 
-  background-color: #fff}
-
-
+  background-color: #fff
+}
 
 /* Marseille accommodation Section */
 
@@ -217,8 +210,7 @@ ul li .color_blue {color: #0065FC}
   background-color: #F2F2F2;
   margin: 0 50px 30px 65px;
   border-radius: 25px;
-}
-  
+}  
 
 #s_accommodation h2 {margin: 60px 0 40px 60px;}
 .s_accommodation_row1 {display: flex;}
@@ -260,8 +252,6 @@ ul li .color_blue {color: #0065FC}
 .card-body .card-title {margin: 5px 0;}
 .card-body .card-review {margin: 10px 0;}
 
-
-
 /* ===============================Most popular - Aside=============================== */
 .a_popularity {
   min-width: 560px; 
@@ -270,15 +260,13 @@ ul li .color_blue {color: #0065FC}
   margin-right: 70px;
   border-radius: 25px;
 }
-
   .a_popularity_title {
     display:flex;     
     margin: 60px;
     justify-content: space-between;
   }
   .a_popularity_title i {padding-top: 10px;}
-  .a_popularity_col1 .card {  
-      
+  .a_popularity_col1 .card {        
     width: 460px;
     height: 190px;
     margin: 40px 50px;
@@ -306,7 +294,6 @@ ul li .color_blue {color: #0065FC}
     border-radius: 25px 0 0 25px;
     margin: 5px;
   }
-
   .a_popularity_col1 .card-image-2 img {
     width: 180%;  
     position: absolute;
@@ -316,7 +303,6 @@ ul li .color_blue {color: #0065FC}
     transition-duration: .3s;
     transition-timing-function: ease;
   }
-
   .a_popularity .card-image img {
     width: 180%;  
     position: absolute;
@@ -507,8 +493,6 @@ ul li .color_blue {color: #0065FC}
   }
   .card_xsmall .card-title h3 {margin: 30px 0 30px 25px;}
 
-
-
 /*              ===================================================================                  */
 /* ============================================ Footer ============================================= */
 /*              ===================================================================                  */
@@ -526,9 +510,23 @@ ul li .color_blue {color: #0065FC}
      
 
 
+/*============================================================================RESPONSIVE - TABLET============================================================================*/
+/*Largeur comprise entre 768px et 992px*/
+@media all and (min-width:768px) and (max-width:992px)
+{
+   /* Bloc Accomodation and Aside */
+   #container_s_a {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 768px;
+    height: auto;    
+    margin: auto 0;
+  } 
+  .a_popularity {margin-left:60px;margin-bottom:60px;}
+}
+
 /*============================================================================RESPONSIVE - SMARTPHONE============================================================================*/
-
-
+/*Largeur maximal de 768px*/
 @media all and (max-width: 768px)
 {
   * {
@@ -537,15 +535,12 @@ ul li .color_blue {color: #0065FC}
     -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
     margin: 0;
     padding: 0; 
-  }
-  
+  }  
   
   body {
     font-family: 'Raleway', sans-serif;
-    width: 768px;
-        
+    width: 768px;        
   }
-
   /* --------------------------------------Header-------------------------------------- */
     
   .header {
@@ -566,15 +561,13 @@ ul li .color_blue {color: #0065FC}
     width: 50%;          
     font-size: 25px;
     padding: 20px 0 0 0;
-    border-bottom: 4px solid #F2F2F2;   
-    
+    border-bottom: 4px solid #F2F2F2;      
   }  
   .header_nav ul li:last-child {
     width: 50%;
     font-size: 25px;
     padding: 20px 0 0 0;
-    border-bottom: 4px solid #F2F2F2;
-    
+    border-bottom: 4px solid #F2F2F2;    
   }
   .header_nav ul li:first-child:hover {  border-bottom: 4px solid #0065FC;border-top: none;}
   .header_nav ul li:last-child:hover {  border-bottom: 4px solid #0065FC;}
@@ -588,7 +581,6 @@ ul li .color_blue {color: #0065FC}
   .s_title h1 {margin-top: 70px;font-size: 40px;}
   .s_title_p {font-size: 30px;}
 
-
   /* Search Section  */
   .s_search {margin-bottom: 50px;}
   .s_search_container {
@@ -597,8 +589,7 @@ ul li .color_blue {color: #0065FC}
     width: fit-content;
     position: absolute;
     top: 470px;
-    left: 30px;
-                  
+    left: 30px;                  
     }
     .s_search_container .i_locate {
       position: relative;
@@ -635,15 +626,11 @@ ul li .color_blue {color: #0065FC}
       background: #0065FC;
       border-radius: 20px;
       font-size: 35px;           
-    }   
-
+    }
     .s_search_container .s_search_button_2 { 
       display:none ;
       border-radius: 20px;    
     }
-
-   
-
 
   /* Filter Section   */
 
@@ -718,11 +705,9 @@ ul li .color_blue {color: #0065FC}
     overflow: hidden;
     height: 290px;
     width: 260px;   
-    border-radius: 25px 0 0 25px;
-    
+    border-radius: 25px 0 0 25px;    
     margin: 5px;
-  }
-  
+  }  
   .a_popularity_col1 .card-image-2 {
     position: relative;
     overflow: hidden;
